@@ -1,0 +1,427 @@
+@font-face {
+  font-family: monsterat;
+  src: url(Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background-color: #252b48;
+  padding-left: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input {
+  border-radius: 25px;
+  border: none;
+  width: 300px;
+  padding-left: 35px;
+  height: 30px;
+}
+
+.label {
+  background-image: url("img/search-removebg-preview.png");
+  padding: 25px;
+  height: 25px;
+  margin-right: -30px;
+  border-radius: 25px;
+  position: relative;
+  left: 30px;
+  margin-left: -120px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-left: 55%;
+  align-content: flex-end;
+}
+
+.Navigation {
+  display: flex;
+  background-color: #445069;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  color: #ceaa7a;
+  font-family: "monsterat";
+}
+
+.Navigation > img {
+  width: 100px;
+}
+
+.Navigation1 {
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation1 > img {
+  max-width: 150px;
+  padding-left: 50px;
+}
+
+.garis {
+  background-color: white;
+  position: relative;
+  height: 40px;
+  width: 3px;
+  margin-left: 150px;
+}
+
+.Navigation > div {
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Navigation > div > img {
+  height: 25px;
+  width: auto;
+}
+
+.now {
+  width: 40px;
+  margin-right: 5%;
+}
+
+.up {
+  width: 25px;
+  margin-right: 10px;
+}
+.theater {
+  width: 40px;
+  margin-right: 0cm;
+}
+.promotions {
+  width: 30px;
+}
+.info21 {
+  width: 30px;
+}
+
+.slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 13.5%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 800px;
+  height: 500px;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #ceaa7a;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div {
+  border: 2px solid #40d3dc;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #40d3dc;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #40d3dc;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #40d3dc;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #40d3dc;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: #40d3dc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-right: 585px;
+  margin-right: 285px;
+  padding-top: 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.nowplaying {
+  display: inline;
+  background-color: #252b48;
+  padding: 4px 50px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 6px;
+}
+.location {
+  border: none;
+  background-color: #445069;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  height: 28px;
+  width: 180px;
+  margin-left: 15px;
+  padding-left: 20px;
+  margin: auto;
+  outline: none;
+}
+
+select {
+  background-color: #445069;
+  color: white;
+  display: flex;
+  outline: none;
+}
+
+p:hover {
+  cursor: pointer;
+  color: #ffc107;
+}
+
+.wrapper {
+  display: flex;
+}
+
+option {
+  color: white;
+  text-shadow: 2px 2px gray;
+  box-shadow: 2px 2px 2px black;
+  outline: none;
+}
+option:hover {
+  cursor: pointer;
+}
+
+.fotoposter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0 200px 0 200px;
+}
+
+.fotoposter > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.fotoposter > div > img {
+  height: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fotoposter > div > a > img {
+  height: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fotoposter > div > img:hover {
+  transform: scale(1.07);
+  border-radius: 10px;
+}
+
+.fotoposter > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "monsterat";
+  margin-top: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ratingumur {
+  margin-bottom: 150px;
+}
+
+.upcomingpos {
+  display: inline;
+  background-color: #252b48;
+  padding: 4px 50px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  margin-left: 227px;
+  margin-bottom: 100px;
+}
+
+.fotoposter1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0 200px 0 200px;
+}
+
+.fotoposter1 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.fotoposter1 > div > img {
+  height: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+
+.fotoposter1 > div > a > img {
+  height: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.3s;
+}
+
+.fotoposter1 > div > img:hover {
+  transform: scale(1.07);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fotoposter1 > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "monsterat";
+  margin-top: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bottom1 > p {
+  width: 25px;
+}
+
+.bottom1 {
+  color: rgb(212, 212, 212);
+}
+
+.footer1 {
+  background-color: #252b48;
+  padding: 20px 550px 10px 200px;
+  width: 100%;
+  margin-top: 150px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: block;
+  align-content: flex-end;
+  font-size: 13px;
+}
